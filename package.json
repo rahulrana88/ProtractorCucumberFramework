@@ -1,0 +1,26 @@
+{
+  "name": "protractor-cucumber",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "protractor config/config.js",
+    "webdriver-update": "webdriver-manager update",
+    "webdriver-start": "webdriver-manager start --standalone"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cucumber": "^2.3.0",
+    "mkdirp": "^0.5.1",
+    "protractor": "^5.1.1",
+    "protractor-cucumber-framework": "^3.1.0"
+  },
+  "devDependencies": {
+    "chai-as-promised": "^6.0.0",
+    "cucumber-html-report": "^0.6.0",
+    "cucumber-html-reporter": "^0.5.2",
+    "cucumberjs-allure-reporter": "^1.0.3",
+    "selenium-webdriver": "^3.4.0",
+    "pg": "^6.0.3"
+  }
+}
